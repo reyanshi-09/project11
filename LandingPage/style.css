@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}    
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 88, 101, 0.756);
+    display: flex;
+    overflow: hidden;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+   
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(95, 34, 126);
+    background-image: url(ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(123, 114, 117, 0.395);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+   
+}
+#text-div{
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 78px;
+    color: #fff;
+    letter-spacing: 8px;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+   background-image: url(img.jpg);
+    position: absolute;
+    background-position: center;
+    top: 50%;
+    right: 5%;
+    background-size: cover;
+    transform: translate(0, -50%);
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.5);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -47%;
+    top: 0%;
+    transform-origin: 0% 0%;
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 5%;
+    left: 7%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
